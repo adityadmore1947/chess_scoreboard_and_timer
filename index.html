@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Points?</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/834e6c3858.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="white" id="black_pieces">
+            <p>Points for White</p>
+
+            <button class="chess_icons" id="black_pawn">
+                <i class="fa-solid fa-chess-pawn fa-2x"></i>
+            </button>
+
+            <button class="chess_icons" id="black_knight">
+                <i class="fa-solid fa-chess-knight fa-2x"></i>
+            </button>
+
+            <button class="chess_icons" id="black_rook">
+                <i class="fas fa-chess-rook fa-2x"></i>
+            </button>
+
+            <button class="chess_icons" id="black_bishop">
+                <i class="fa-solid fa-chess-bishop fa-2x"></i>
+            </button>
+
+            <button class="chess_icons" id="black_queen">
+                <i class="fas fa-chess-queen fa-2x"></i>
+            </button>
+            <input type="text" min="0" max="39" id="white_score_text" readonly>
+        </div>
+
+        <div class="black" id="white_pieces">
+            <p>Points for black</p>
+
+            <button class="chess_icons" id="white_pawn">
+                <i class="fa-solid fa-chess-pawn fa-2x"></i>
+            </button>
+
+            <button class="chess_icons" id="white_knight">
+                <i class="fa-solid fa-chess-knight fa-2x"></i>
+            </button>
+
+            <button class="chess_icons" id="white_rook">
+                <i class="fas fa-chess-rook fa-2x"></i>
+            </button>
+
+            <button class="chess_icons" id="white_bishop">
+                <i class="fa-solid fa-chess-bishop fa-2x"></i>
+            </button>
+
+            <button class="chess_icons" id="white_queen">
+                <i class="fas fa-chess-queen fa-2x"></i>
+            </button>
+            <input type="text" min="0" max="39" id="black_score_text" readonly>
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+}
+
+.white,
+.black {
+  background-color: yellow;
+  width: 30vw;
+  margin: 30px;
+  height: 30vh;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #2d5a27;
+  /* width: 50vw; */
+}
+
+.white p,
+.black p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.chess_icons {
+  /* color:inherit; */
+  margin: 4px auto;
+  /* border: 2px solid red; */
+  /* display: inline-block; */
+  padding: 5px;
+  /* color:white; */
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.black .chess_icons {
+  color: white;
+}
